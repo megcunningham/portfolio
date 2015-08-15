@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "homepage": "https://github.com/megcunningham/portfolio",
+  "authors": [
+    "Meg Cunningham <meg_cunningham@live.com>"
+  ],
+  "description": "Personal webpage to portfolio projects",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4"
+  }
+}
