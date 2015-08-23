@@ -13,35 +13,219 @@
   </head>
 
 <body>
-
-<div class="container">
+<div class="container top-of-page">
   <div class="row">
-    <div class="col-md-8">
-    <img class="img-responsive" src="www/img/nashville-skyline-night.jpg">
-    <h1> Megan M. Cunningham </h1>
+    <div class="col-xs-4 col-md-4">
+      <h4>meg_cunningham@live.com</h4>
     </div>
-        <div class="col-xs-4 well well-sm">
-          <img class-"img-thumbnail" src="www/img/portfolio-pic.jpg" alt="HEADSHOT">
-          <h3> About </h3>
-          <p> Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. </p>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-8 col-md-8 intro">
+    <img class="img-responsive skyline" src="www/img/skyline.jpg">
+      <h1 class="name-title"> Megan M. Cunningham </h1>
+      <h4 class="sub-title">Junior Web Developer </h4>
+
+      <div class="my-modals">
+          <!-- Button trigger modal -->
+        <button type="button" class="text-warning btn btn-lg" data-toggle="modal" data-target="#myModal">
+          Resume
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+                  <!-- Button trigger modal -->
+        <button type="button" class=" text-warning btn btn-lg" data-toggle="modal" data-target="#contact">
+          Contact
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myContactLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myContactLabel">Contact Info</h4>
+              </div>
+              <div class="modal-body">
+               <p> Megan Cunningham</p>
+               <p>meg_cunningham@live.com</p>
+               <p>(931)607-8543</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+
+
+        <div class="col-xs-4 col-md-4">
+          <div class="headshot">
+          <img class-"img-rounded img-responsive headshot" src="www/img/caneridge.jpg" alt="HEADSHOT">
+          </div>
+          <div class="headshot-body">
+          <h3 class="text-warning"> About </h3>
+          <p>Megan's background is in business dentistry; she spent a year at Draughon's Jr. College where she learned dental assisting and a year at Motlow Community College with a focus on Entreprenuer/Business Administration. She worked as a business assistant for Heartland Dental/Cane Ridge Dentist in Antioch, TN until joining Nashville Software School in April. Although she loves the dental field, her eyes are set on a career with unlimited potential and learning. </p> 
+          <p>Megan is also an avid reader and gym goer who is passionate about English and fitness. In her spare time she trains as a women's figure body builder and is nationally qualified with the NPC.</p> 
+          <p>In September she graduated from NSS with Cohort-9 and is eager to contribute and sharpen her full-stack development skills within the synergy of a great team. </p>
+          </div>
+        </div>
+
   </div>
 </div>
 
 <div class="container">
+
   <div class="row">
-    <div class="col-xs-4 well">
-    <h3> Follow me </h3>
-    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/megan-cunningham/60/83/726" data-format="hover" data-related="false"></script>
+    <div class="col-md-12 well well-sm portfolio">
+      <a class="btn dropdown text-warning" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+       <h3>Portfolio</h3>
+      </a>
+      
+     
+      <div class="collapse" id="collapseExample">
+        <div class="well">
+         
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="www/img/projects/webcapstone.png" alt="...">
+              <div class="carousel-caption">
+                <h1> A project goes here </h1>
+              </div>
+            </div>
+            <div class="item">
+              <img src="www/img/projects/ionictimer.png" alt="...">
+              <div class="carousel-caption">
+                Another one goes here
+              </div>
+            </div>
+            ...
+          </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4 well">
-    <h3> Projects </h3>
+  </div>
+
+    <div class="row">
+     <div class="col-xs-12 col-md-12 well">
+      <h3 class="text-warning"> Development Skills </h3>
+       <div class="col-xs-4 col-md-4 front-end">
+          <ul> <strong><em>Front End</em> </strong>
+            <li>Intermediate Javascript and jQuery skills</li>
+            <li>Experienced with frameworks such as Bootstrap and AngularJS, as well as mobile development in Ionic and Cordova</li>
+            <li>Proficient with HTML5/CSS web design; experienced writing with Jade/Sass</li>
+            <li>Knowledgable use with both Grunt and Gulp compilers</li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-md-4 back-end">
+          <ul> <strong><em> Back End </em></strong>
+            <li>Uses the MEAN stack with Javascript (MongoDB, ExpressJS, Angular, NodeJS)</li>
+            <li>Executes test-driven development with Mocha/Chai, TravisCI</li>
+            <li>Utilizes web deployment services such as Github, Heroku, and AWS</li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-md-4">
+          <ul class="other"> <strong><em>Other</em></strong>
+           <li>Fluent usage of Npm and Git in the command line</li>
+           <li>Currently learning Python</li>
+          </ul>
+        </div>
+      </div>
     </div>
+ 
+  <div class="row">
+    <div class="col-xs-3 col-med-3">
+    </div>
+    <div class="col-xs-6 col-med-6 well">
+    <h3 class="text-warning"> Follow me </h3>
+    <div class="col-xs-4 follow">
+    <img class="img-responsive" src="www/img/logos/github.png">
+    <hr>
+    <h4><a class="text-warning" href="https://github.com/megcunningham">Github</a></h4>
+    </div>
+    <div class="col-xs-4 follow">
+    <img class="img-responsive" src="www/img/logos/linked.png">
+    <hr>
+    <h4><a class="text-warning" href="https://www.linkedin.com/pub/megan-cunningham/60/83/726">LinkedIn</a></h4>
+    </div>
+    <div class="col-xs-4 follow">
+    <img class="img-responsive" src="www/img/logos/twitter.png">
+    <hr>
+    <h4><a class="text-warning" href="https://twitter.com/JustCallMe_Megs">Twitter</a></h4>
+    </div>
+    </div>
+    <div class="col-xs-3 col-med-3">
+    </div>
+  </div>
+  <hr>
+    <div class="row">
+      <div class="col-xs-1 col-md-1 icons">
+        <img class="img-responsive" src="www/img/icons/jquery-logo.png">
+      </div>
+      <div class="col-xs-2 col-md-2 icons">
+      <img class="img-responsive" src="www/img/icons/angular.ico">
+      </div>
+      <div class="col-xs-1 col-md-1 icons">
+      <img class="img-responsive" src="www/img/icons/mongo.png">
+      </div>
+      <div class="col-xs-2 col-md-2 icons">
+      <img class="img-responsive" src="www/img/icons/npm.png">
+      </div>
+      <div class="col-xs-1 col-md-1 icons">
+      <img class="img-responsive" src="www/img/icons/javascript.png">
+      </div>
+      <div class="col-xs-2 col-md-2 icons">
+      <img class="img-responsive" src="www/img/icons/git.png">
+      </div>
+      <div class="col-xs-1 col-md-1 icons">
+      <img class="img-responsive" src="www/img/icons/htmlcss.png">
+      </div>
+      <div class="col-xs-1 col-md-1 icons">
+      <img class="img-responsive" src="www/img/icons/nodejs.png">
+      </div>
+    </div>
+    <hr>
+  <div class="row">
+  <h4>built with Bootstrap</h4>
   </div>
 </div>
 
-  <div ng-view></div>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

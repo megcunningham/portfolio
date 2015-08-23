@@ -1,29 +1,104 @@
+/* global css */
+
 body {
 	background-color: lavender;
 }
-
 h1 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-weight: bolder;
 }
-
 h3 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
-	/*font-style: italic;*/
 }
-
-h6 {
+h4 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
-	font-weight: bolder;
 }
-
 p {
 	font-family: 'ABeeZee', sans-serif;
+	font-size: 13px;
 }
-
 img {
 	border-style: double;
 }
+ul li {
+	list-style: circle;
+}
+
+/* headshot and skyline css */
+.headshot {
+	position: relative;
+	left: 110px;
+}
+
+.name-title {
+	color: seashell;
+	text-shadow: 1px 1px goldenrod;
+	position: absolute;
+	z-index: 100;
+	top: 10px;
+	right: 240px;
+}
+.sub-title {
+	color: seashell;
+	text-shadow: 1px 1px goldenrod;
+	position: absolute;
+	top: 70px;
+	right:330px;
+}
+.my-modals {
+	color: white;
+	position: absolute;
+	z-index: 100;
+	top: 415px;
+	right: 280px;
+}
+.my-modals button {
+	border-radius: 25px;
+	margin: 10px;
+	text-shadow: 1px 1px goldenrod;
+	background-color: seashell;
+	border-color: mistyrose;
+}
+.top-of-page {
+	background-color: lavenderblush;
+}
+.intro {
+	margin-bottom: 25px;
+}
+
+/* content wells */
+.portfolio {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+.back-end {
+	text-align: ;
+}
+.follow {
+	left: 8px;
+}
+
+/* footer */
+.icons ul li {
+	list-style: none;
+	display: inline;
+}
+.icons {
+	left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
