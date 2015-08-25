@@ -1,7 +1,11 @@
 /* global css */
 
 body {
-	background-color: lavender;
+	background-color: thistle;
+}
+.background {
+	position: absolute;
+	z-index: 100;
 }
 h1 {
 	text-align: center;
@@ -13,7 +17,6 @@ h3 {
 	font-family: 'Dancing Script', cursive;
 }
 h4 {
-	text-align: center;
 	font-family: 'Dancing Script', cursive;
 }
 p {
@@ -28,9 +31,17 @@ ul li {
 }
 
 /* headshot and skyline css */
+.intro img {
+	position: relative;
+	border-radius: 3px;
+	left: 5px;
+}
 .headshot {
 	position: relative;
-	left: 110px;
+	left: 115px;
+}
+.headshot img {
+	border-radius: 65px;
 }
 
 .name-title {
@@ -53,17 +64,18 @@ ul li {
 	position: absolute;
 	z-index: 100;
 	top: 415px;
-	right: 280px;
+	right: 270px;
 }
 .my-modals button {
-	border-radius: 25px;
+	border-radius: 5px;
 	margin: 10px;
-	text-shadow: 1px 1px goldenrod;
-	background-color: seashell;
+	text-shadow: 1px 1px thistle;
+	background-color: floralwhite;
 	border-color: mistyrose;
 }
 .top-of-page {
 	background-color: lavenderblush;
+	border-radius: 3px;
 }
 .intro {
 	margin-bottom: 25px;
@@ -71,14 +83,25 @@ ul li {
 
 /* content wells */
 .portfolio {
+	top: 15px;
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
+}
+.dev-skills {
+	top: 10px;
 }
 .back-end {
 	text-align: ;
 }
+.follow-me {
+	top:6px;
+}
 .follow {
 	left: 8px;
+}
+.follow h4{
+	position: relative;
+	left: 40px;
 }
 
 /* footer */
@@ -87,7 +110,10 @@ ul li {
 	display: inline;
 }
 .icons {
-	left: 35px;
+	left: 52px;
+}
+.header-footer {
+	text-align: center;
 }
 
 
